@@ -27,8 +27,7 @@ Matplotlib (suggested)
 GPU Requirements  
 Tensorflow 2.0  
 
-## [Task 1: Knowledge Distillation in MNIST Dataset ](https://github.com/Dererkzzz/ECE1512-2023F-ProjectRepo-Longqian-Zhang-Yuxuan-Liu/blob/main/ProjectA/Task1.ipynb)
-
+## Task 1: Knowledge Distillation in MNIST Dataset  
 Implementation of conventional knowledge distillation for MNIST.  
 Compare the performance of the student with and without KD.  
 
