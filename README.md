@@ -36,4 +36,8 @@ Compare the performance of the student with and without KD.
 Use pre-trained ResNet50V2 and MobileNetV2 networks for teacher and student models.  
 Perform knowledge distillation.  
 Evaluate model performance for an imbalanced dataset.  
-![task2](/Users/liuyuxuan/Desktop/Picture1.png)
+![task2](/Users/liuyuxuan/Desktop/Picture1.png)  
+
+## Reference  
+
+More detail in ProjectA report.
