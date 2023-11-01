@@ -1,12 +1,36 @@
 
+Project A - Knowledge Distillation for Model Compression
 
-Here is the explanation of what is included in the Supplementary file:
+Introduction
 
+Deep neural networks (DNNs) have been widely deployed on the cloud for a wide spectrum of applications, from computer vision to natural language processing. However, deploying these large models on edge devices with limited resources can be challenging due to computational complexity and storage requirements. Knowledge distillation (KD) offers a solution to deploy lightweight models on such devices without sacrificing accuracy.
 
-    1. mhist_dataset is a folder containing two subfolders, including the images and their annotations, for the MHIST dataset. All 3152 images are in the images.zip file. Annotations are included in annotations.csv. Note that this file includes each image file name and its corresponding majority-vote label and degree of annotator agreement expressed as the number of annotators who marked the image as SSA (e.g., 6 indicates 6/7 agreement with a ground truth of SSA, and 2 would indicate 5/7 agreement with a ground truth of HP).
+This project focuses on knowledge distillation as a model compression technique and is divided into two tasks. Task 1 uses conventional knowledge distillation on the MNIST digit classification dataset, while Task 2 applies transfer learning and knowledge distillation to train a lightweight model for a clinical histopathology dataset (MHIST).
 
-    2.Task1.ipynb is a Python notebook showing how the teacher and student models are trained in the conventional KD framework. You will use this file to implement conventional KD for the MNIST dataset.
+Datasets
 
-    3. Project_A_FAQs.pdf is a list of Frequently Asked Questions that try to throw light on (almost) all of your questions and concerns that you may have during Project A.
+MNIST:
+Description: A digit classification dataset with 10 classes (0-9).
+Data Size: 60,000 training data + 10,000 test data.
 
+Minimalist HIStopathology (MHIST):
+Description: A binary classification task for colorectal polyp images.
+Data Size: 2,175 training data + 977 test data.
+Experimental Setup
+
+Prerequisites
+Python 3.X
+Sci-kit-learn (suggested)
+NumPy (suggested)
+Matplotlib (suggested)
+GPU Requirements
+
+Task 1: Knowledge Distillation in MNIST Dataset
+Implementation of conventional knowledge distillation for MNIST.
+Compare the performance of the student with and without KD.
+
+Task 2: Knowledge Distillation in MHIST Dataset
+Use pre-trained ResNet50V2 and MobileNetV2 networks for teacher and student models.
+Perform knowledge distillation.
+Evaluate model performance for an imbalanced dataset.
 
