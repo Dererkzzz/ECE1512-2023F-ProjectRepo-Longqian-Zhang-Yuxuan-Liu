@@ -25,6 +25,7 @@ Sci-kit-learn (suggested)
 NumPy (suggested)
 Matplotlib (suggested)
 GPU Requirements
+Tensorflow 2.0
 
 Task 1: Knowledge Distillation in MNIST Dataset
 Implementation of conventional knowledge distillation for MNIST.
