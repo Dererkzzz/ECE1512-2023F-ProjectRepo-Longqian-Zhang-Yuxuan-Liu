@@ -30,9 +30,10 @@ Tensorflow 2.0
 ## Task 1: Knowledge Distillation in MNIST Dataset  
 Implementation of conventional knowledge distillation for MNIST.  
 Compare the performance of the student with and without KD.  
+![task2](/Users/liuyuxuan/Desktop/Picture2.jpg)
 
 ## Task 2: Knowledge Distillation in MHIST Dataset  
 Use pre-trained ResNet50V2 and MobileNetV2 networks for teacher and student models.  
 Perform knowledge distillation.  
 Evaluate model performance for an imbalanced dataset.  
-
+![task2](/Users/liuyuxuan/Desktop/Picture1.png)
