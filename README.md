@@ -30,13 +30,15 @@ Tensorflow 2.0
 ## Task 1: Knowledge Distillation in MNIST Dataset  
 Implementation of conventional knowledge distillation for MNIST.  
 Compare the performance of the student with and without KD.  
-![task2](/Users/liuyuxuan/Desktop/Picture2.jpg)
+![task2](/ProjectA/Picture2.jpg)  
+By looking at the above figure one can see that the accuracy of the student model increases when the temperature T parameter is higher. In the lower temperature range (from T=1 to T=4), the test accuracy increases dramatically as the temperature increases.
 
 ## Task 2: Knowledge Distillation in MHIST Dataset  
 Use pre-trained ResNet50V2 and MobileNetV2 networks for teacher and student models.  
 Perform knowledge distillation.  
 Evaluate model performance for an imbalanced dataset.  
-![task2](/Users/liuyuxuan/Desktop/Picture1.png)  
+![task2](/ProjectA/Picture1.png)    
+By looking at the above graph, it can be seen that as the temperature T parameter starts to increase, the performance of the student model increases. However, as the temperature continues to increase, the performance of the student model begins to decrease gradually. This decrease is noticeable as the temperature increases from 16 to 64.
 
 ## Reference  
 
