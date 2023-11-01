@@ -1,7 +1,8 @@
 
-Project A - Knowledge Distillation for Model Compression
+Project A - Knowledge Distillation for Model Compression -- Longqian Zhang, Yuxuan Liu
 
-Introduction
+
+Motivation
 
 Deep neural networks (DNNs) have been widely deployed on the cloud for a wide spectrum of applications, from computer vision to natural language processing. However, deploying these large models on edge devices with limited resources can be challenging due to computational complexity and storage requirements. Knowledge distillation (KD) offers a solution to deploy lightweight models on such devices without sacrificing accuracy.
 
