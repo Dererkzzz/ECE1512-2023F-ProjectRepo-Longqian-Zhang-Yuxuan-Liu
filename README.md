@@ -25,34 +25,17 @@ Opacus
 # Project B - Data -- Longqian Zhang, Yuxuan Liu
 
 
-
+## Motivation
  
+In order to reduce the challenge of high computational sources for deep learning models trained on large-scale datasets, Wang et al. propose an alternative model-space based approach to reduce computational costs, namely dataset distillation (DD). The goal of this project to create a synthetic small S that has the most discriminative features of the original large-scale dataset T.
 
 
+## Task 1: Knowledge Distillation in MNIST Dataset  
+In this task, we used the dataset distillation with gradient matching to learn a synthetically small dataset for the MNIST and MHIST datasets, train networks from scratch on the condensed images, and then evaluate them on the real testing data. This is one of the fundamental frameworks for dealing with dataset distillation in computer vision classification tasks while decreasing the computational costs. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Task 2: Knowledge Distillation in MHIST Dataset  
+In this task, we would like to use the two state-of-the-art methods introduced in Section 1 of the Introduction and compare them to the "gradient matching" algorithm you used in Task 1 to further explore the effectiveness of dataset-refinement methods in visual classification tasks. The papers are "Towards Lossless Dataset Distillation via Difficulty-Aligned Trajectory Matching" and "Dataset Condensation via efficient synthetic-data parameterization."
+ 
 
 
 
