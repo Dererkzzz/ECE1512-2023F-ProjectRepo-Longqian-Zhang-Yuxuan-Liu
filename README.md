@@ -38,7 +38,7 @@ author={Bo Zhao and Konda Reddy Mopuri and Hakan Bilen},
 booktitle={International Conference on Learning Representations},
 year={2021},
 url={https://openreview.net/forum?id=mSAKhLYLSsl}
-}
+}  
 In this task, we used the dataset distillation with gradient matching to learn a synthetically small dataset for the MNIST and MHIST datasets, train networks from scratch on the condensed images, and then evaluate them on the real testing data. This is one of the fundamental frameworks for dealing with dataset distillation in computer vision classification tasks while decreasing the computational costs. 
 
 ## Task 2: Knowledge Distillation in MHIST Dataset  
