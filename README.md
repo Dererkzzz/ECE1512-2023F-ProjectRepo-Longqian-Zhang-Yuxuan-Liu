@@ -53,9 +53,9 @@ Task 1. MHIST Result
    python DATM.py --cfg ../configs/IPC1.yaml
 
 ### evaluation
-1. move result file to ProjectB/Task1/GM
-2. change train data dir
-3. python Part1_q2_e_mnist.py
+1. move result file to ProjectB/Task1/GM  
+2. change train data dir  
+3. python Part1_q2_e_mnist.py  
 @inproceedingskimICML22, title = Dataset Condensation via Efficient Synthetic- Data Parameterization, author = Kim, Jang-Hyun and Kim, Jinuk and Oh, Seong Joon and Yun, Sangdoo and Song, Hwanjun and Jeong, Joonhyun and Ha, Jung-Woo and Song, Hyun Oh, booktitle = International Conference on Machine Learning (ICML), year = 2022   
 
 In this task, we would like to use the two state-of-the-art methods introduced in Section 1 of the Introduction and compare them to the "gradient matching" algorithm you used in Task 1 to further explore the effectiveness of dataset-refinement methods in visual classification tasks. The papers are "Towards Lossless Dataset Distillation via Difficulty-Aligned Trajectory Matching" and "Dataset Condensation via efficient synthetic-data parameterization."
