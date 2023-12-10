@@ -74,7 +74,7 @@ In this task, we would like to use the two state-of-the-art methods introduced i
 ![task2](/ProjectB/Task2/DATM/result/image_grid.png)  
 Task 2.1. MNIST Result
  
-![task2](/ProjectB/Task2/DATM/result/image_grid.png)  
+![task2](/ProjectB/Task2/Efficient_Dataset_Condensation/img2000.png)  
 Task 2.2. MNIST Result
 
 
