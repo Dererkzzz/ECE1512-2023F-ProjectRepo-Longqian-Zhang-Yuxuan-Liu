@@ -1,3 +1,44 @@
+# Project B - Data -- Longqian Zhang, Yuxuan Liu
+
+
+
+## Prerequisites:
+Python 3.X  
+Sci-kit-learn (suggested)  
+NumPy (suggested)  
+Matplotlib (suggested)  
+GPU Requirements  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Project A - Knowledge Distillation for Model Compression -- Longqian Zhang, Yuxuan Liu
 
