@@ -36,8 +36,10 @@ In order to reduce the challenge of high computational sources for deep learning
 @inproceedingschen2022privateset, title=Private Set Generation with Discriminative Information, author=Chen, Dingfan and Kerkouche, Raouf and Fritz, Mario, booktitle=Neural Information Processing Systems (NeurIPS), year=2022   
  
 In this task, we used the dataset distillation with gradient matching to learn a synthetically small dataset for the MNIST and MHIST datasets, train networks from scratch on the condensed images, and then evaluate them on the real testing data. This is one of the fundamental frameworks for dealing with dataset distillation in computer vision classification tasks while decreasing the computational costs. 
-![task1](/ProjectB/Picture2.jpg)  
-Task 1. Result
+![task1](/ProjectB/Task1/Gradient_Matching/synthetic_pic/MNIST_real.jpg)  
+Task 1. MNIST Result
+![task1](/ProjectB/Task1/Gradient_Matching/synthetic_pic/MHIST_syn_conv6_200it_real_labeled.jpg)  
+Task 1. MHIST Result
 
 ## Task 2: Knowledge Distillation in MHIST Dataset  
 @miscguo2023lossless, title=Towards Lossless Dataset Distillation via Difficulty Aligned Trajectory Matching, author=Ziyao Guo and Kai Wang and George Cazenavette and Hui Li and Kaipeng Zhang and Yang You, year=2023, eprint=2310.05773, archivePrefix=arXiv, primaryClass=cs.CV   
