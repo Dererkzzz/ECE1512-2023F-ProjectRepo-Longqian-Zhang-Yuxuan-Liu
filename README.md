@@ -1,6 +1,13 @@
-# Project B - Data -- Longqian Zhang, Yuxuan Liu
+## Datasets
 
+MNIST:  
+Description: A digit classification dataset with 10 classes (0-9).  
+Data Size: 60,000 training data + 10,000 test data.  
 
+Minimalist HIStopathology (MHIST):  
+Description: A binary classification task for colorectal polyp images.  
+Data Size: 2,175 training data + 977 test data.  
+ 
 
 ## Prerequisites:
 Python 3.X  
@@ -8,6 +15,12 @@ Sci-kit-learn (suggested)
 NumPy (suggested)  
 Matplotlib (suggested)  
 GPU Requirements  
+Tensorflow 2.0 
+
+# Project B - Data -- Longqian Zhang, Yuxuan Liu
+
+
+
  
 
 
@@ -49,24 +62,7 @@ Deep neural networks (DNNs) have been widely deployed on the cloud for a wide sp
 
 This project focuses on knowledge distillation as a model compression technique and is divided into two tasks. Task 1 uses conventional knowledge distillation on the MNIST digit classification dataset, while Task 2 applies transfer learning and knowledge distillation to train a lightweight model for a clinical histopathology dataset (MHIST).
 
-## Datasets
-
-MNIST:  
-Description: A digit classification dataset with 10 classes (0-9).  
-Data Size: 60,000 training data + 10,000 test data.  
-
-Minimalist HIStopathology (MHIST):  
-Description: A binary classification task for colorectal polyp images.  
-Data Size: 2,175 training data + 977 test data.  
  
-
-## Prerequisites:
-Python 3.X  
-Sci-kit-learn (suggested)  
-NumPy (suggested)  
-Matplotlib (suggested)  
-GPU Requirements  
-Tensorflow 2.0  
 
 ## Task 1: Knowledge Distillation in MNIST Dataset  
 Implementation of conventional knowledge distillation for MNIST.  
