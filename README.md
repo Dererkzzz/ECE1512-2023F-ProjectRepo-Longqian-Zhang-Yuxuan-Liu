@@ -48,9 +48,11 @@ Task 1. MHIST Result
 
 In this task, we would like to use the two state-of-the-art methods introduced in Section 1 of the Introduction and compare them to the "gradient matching" algorithm you used in Task 1 to further explore the effectiveness of dataset-refinement methods in visual classification tasks. The papers are "Towards Lossless Dataset Distillation via Difficulty-Aligned Trajectory Matching" and "Dataset Condensation via efficient synthetic-data parameterization."
  
-
-
-
+![task2](/ProjectB/Task2/DATM/result/image_grid.png)  
+Task 2.1. MNIST Result
+ 
+![task2](/ProjectB/Task2/DATM/result/image_grid.png)  
+Task 2.2. MNIST Result
 
 
 # Project A - Knowledge Distillation for Model Compression -- Longqian Zhang, Yuxuan Liu
