@@ -11,13 +11,13 @@ Data Size: 2,175 training data + 977 test data.
 
 ## Prerequisites:
 Python 3.X  
-PyTorch
-Torchvision
-NumPy
-Pandas
-Matplotlib
-Seaborn
-SciPy
+PyTorch  
+Torchvision  
+NumPy  
+Pandas  
+Matplotlib  
+Seaborn  
+SciPy  
 
 # Project B - Data -- Longqian Zhang, Yuxuan Liu
 
