@@ -31,8 +31,15 @@ In order to reduce the challenge of high computational sources for deep learning
 
 
 ## Task 1: Knowledge Distillation in MNIST Dataset  
+
+### GM
 @inproceedings zhao2021DC, title=Dataset Condensation with Gradient Match-ing, author=Bo Zhao and Konda Reddy Mopuri and Hakan Bilen, booktitle=International Conference on Learning Representations, year=2021, url=https://openreview.net/forum?id=   
 
+
+
+
+
+### Private set
 @inproceedingschen2022privateset, title=Private Set Generation with Discriminative Information, author=Chen, Dingfan and Kerkouche, Raouf and Fritz, Mario, booktitle=Neural Information Processing Systems (NeurIPS), year=2022   
  
 In this task, we used the dataset distillation with gradient matching to learn a synthetically small dataset for the MNIST and MHIST datasets, train networks from scratch on the condensed images, and then evaluate them on the real testing data. This is one of the fundamental frameworks for dealing with dataset distillation in computer vision classification tasks while decreasing the computational costs. 
@@ -42,8 +49,10 @@ Task 1. MNIST Result
 Task 1. MHIST Result
 
 ## Task 2: Knowledge Distillation in MHIST Dataset  
+
+### Towards Lossless Dataset Distillation via Difficulty Aligned Trajectory Matching
 @miscguo2023lossless, title=Towards Lossless Dataset Distillation via Difficulty Aligned Trajectory Matching, author=Ziyao Guo and Kai Wang and George Cazenavette and Hui Li and Kaipeng Zhang and Yang You, year=2023, eprint=2310.05773, archivePrefix=arXiv, primaryClass=cs.CV   
-### run code
+#### run code
 1. create experot trajectories
    cd ProhectB/Task2/buffer
    python buffer_FTD.py
@@ -52,10 +61,12 @@ Task 1. MHIST Result
    cd ProhectB/Task2/distill
    python DATM.py --cfg ../configs/IPC1.yaml
 
-### evaluation
+#### evaluation
 1. move result file to ProjectB/Task1/GM  
 2. change train data dir  
-3. python Part1_q2_e_mnist.py  
+3. python Part1_q2_e_mnist.py
+
+#### Efficient Synthetic
 @inproceedingskimICML22, title = Dataset Condensation via Efficient Synthetic- Data Parameterization, author = Kim, Jang-Hyun and Kim, Jinuk and Oh, Seong Joon and Yun, Sangdoo and Song, Hwanjun and Jeong, Joonhyun and Ha, Jung-Woo and Song, Hyun Oh, booktitle = International Conference on Machine Learning (ICML), year = 2022   
 
 In this task, we would like to use the two state-of-the-art methods introduced in Section 1 of the Introduction and compare them to the "gradient matching" algorithm you used in Task 1 to further explore the effectiveness of dataset-refinement methods in visual classification tasks. The papers are "Towards Lossless Dataset Distillation via Difficulty-Aligned Trajectory Matching" and "Dataset Condensation via efficient synthetic-data parameterization."
