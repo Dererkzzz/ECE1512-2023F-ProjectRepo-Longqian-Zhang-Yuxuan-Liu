@@ -18,7 +18,10 @@ Pandas
 Matplotlib  
 Seaborn  
 SciPy  
-
+Pickle  
+Logging  
+Shutil  
+Opacus  
 # Project B - Data -- Longqian Zhang, Yuxuan Liu
 
 
